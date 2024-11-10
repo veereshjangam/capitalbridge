@@ -1,0 +1,34 @@
+.footer-btn {
+  display: flex;
+  position: relative;
+  z-index: 89;
+
+  bottom: 30px;
+  top: 50px;
+}
+.img1 {
+  width: 100%;
+  transform: rotate(63deg);
+  height: auto;
+  top: 100px;
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  .img1 {
+    top: 10px;
+  }
+}
+/* @media (max-width: 500px) {
+  .footer-btn {
+    display: flex;
+    position: absolute;
+    z-index: 89;
+    right: auto;
+    bottom: auto;
+  }
+  .selec {
+    width: auto !important;
+    right: 20px !important;
+  }
+} */
